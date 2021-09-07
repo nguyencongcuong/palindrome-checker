@@ -85,14 +85,17 @@ function Checker() {
                 />
               </CardContent>
             </Card>
-
           </Grid>
 
           <Grid
             item 
             xs={12}
             className={classes.checkIcon}
-            children={isPalindrome ? <CheckCircleTwoTone color="primary" fontSize="large" /> : <HighlightOffTwoTone color="secondary" fontSize="large" />}
+            children={
+              isPalindrome ? 
+              <CheckCircleTwoTone color="primary" fontSize="large" /> : 
+              <HighlightOffTwoTone color="secondary" fontSize="large" />
+            }
           />
 
         </Grid>
