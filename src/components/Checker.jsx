@@ -60,11 +60,11 @@ function Checker() {
             <Card>
               <CardHeader
                 className={classes.name}
-                title="Palindrom Checker"
+                title="Palindrome Checker"
               />
               <CardContent
                 className={classes.desc}
-                children="A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing. You should see whether a text is palindrom or not as the icon changes."
+                children="A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing. You should see whether a text is a Palindrome or not as the icon changes."
               />
             </Card>         
           </Grid>
