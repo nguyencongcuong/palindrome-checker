@@ -11,9 +11,6 @@ const useStyles = makeStyles((theme) => ({
   name: {
     fontWeight: 600,
   },
-  desc: {
-    textAlign: "justify",
-  },
   textareaWrapper: {
     overflow: "hidden",
   },
